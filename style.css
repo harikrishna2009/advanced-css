@@ -1,0 +1,44 @@
+h1{
+    color: blue;
+    padding-left: 90px;
+}
+
+*{
+    border: solid;
+}
+.header{
+    color: red;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    }
+.socialmedia{
+    border: tomato;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    box-shadow: yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+body{
+    background-color: #808080
+}
+a:link{
+    color: darkblue;
+}
+A:visited{
+    color: darkred;
+}
+.item1 h4{
+    position: absolute;
+    top: 54%;
+    left: 2%;
+    transform:translate(-50%,-50%)
+    opacity : 0;
+}
+.item1:hover h4{
+    opacity: 1;
+}
